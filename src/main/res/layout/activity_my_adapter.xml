@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_light"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="68dp"
+        android:layout_height="62dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/fo_days_pic_2" /> <!-- icon -->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imageview"
+        android:textColor="@android:color/black"
+        android:textSize="28dp"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imageview"
+        android:layout_below="@id/name"
+        android:textColor="@android:color/black"
+        android:text="email@email.com" />
+
+<!--    <Button-->
+<!--        android:id="@+id/pastbtn"-->
+<!--        android:layout_width="112dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:text="refresh"-->
+<!--        android:textSize="16sp"-->
+<!--        android:background="#9C27B0"-->
+<!--        android:fontFamily="sans-serif-smallcaps" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/description"
+        android:layout_marginTop="10dp"
+        android:background="#574646" />
+</RelativeLayout>

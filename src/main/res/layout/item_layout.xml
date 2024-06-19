@@ -1,0 +1,51 @@
+<!-- item_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature" />
+
+    <TextView
+        android:id="@+id/feels_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feels Like" />
+
+    <TextView
+        android:id="@+id/temp_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp Max" />
+
+    <TextView
+        android:id="@+id/temp_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp Min" />
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pressure" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidity" />
+
+</LinearLayout>

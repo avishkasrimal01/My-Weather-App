@@ -1,0 +1,93 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#63B5E9"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pic1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bc1_2" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Weather App"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textColor="#04192B"
+        android:textSize="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+
+        />
+
+    <EditText
+        android:id="@+id/cityName"
+        android:layout_width="298dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter city"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="#174F68"
+        android:textSize="25dp"
+
+        />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="57dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Search"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text=""
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+    <Button
+        android:id="@+id/deletebtn"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="54dp"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="54dp"
+        android:text="History" />
+
+
+</RelativeLayout>

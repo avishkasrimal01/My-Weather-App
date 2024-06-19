@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "282203911329",
+    "firebase_url": "https://reg1-2f304-default-rtdb.firebaseio.com",
+    "project_id": "reg1-2f304",
+    "storage_bucket": "reg1-2f304.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282203911329:android:3be00d147652bc5b812ce0",
+        "android_client_info": {
+          "package_name": "com.example.myweather"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz5SUaawHR2Ge-BJfleRJ5xk40syZmc3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282203911329:android:3c9ba0184b1cea8a812ce0",
+        "android_client_info": {
+          "package_name": "com.example.reg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz5SUaawHR2Ge-BJfleRJ5xk40syZmc3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
